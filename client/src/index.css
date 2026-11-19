@@ -1,0 +1,11 @@
+/* Stone page. IBM Plex is used when the font file loads; the system font is the fallback. */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply bg-stone-100 text-stone-900 antialiased;
+    font-family: "IBM Plex Sans", ui-sans-serif, system-ui, sans-serif;
+  }
+}
